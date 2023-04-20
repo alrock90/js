@@ -54,9 +54,7 @@ const validateCred = (arr) => {
         : (sum += newArrReverse[i] * 2);
     }
   }
-  arr.reverse();
-  // console.log('test reverseArr: ' + newArrReverse)
-  // console.log('test Arr: ' + arr)
+  arr.reverse();  
   return sum % 10 === 0 ? true : false;
 };
 
